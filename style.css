@@ -135,7 +135,35 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
     background-position: 0 -70px;
 }
 /* This is to size and position the containing div for the 
-start and select buttons. */
+start and select buttons. *//*
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+}
+/* Setting the size and CSS sprite for the start adn select buttons *//*
+.custom .back, .custom .start{
+    background: url(ShareMenu.png);
+    width: 33px;
+    height: 32px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background-position-y: -32px;
+    margin-top: 0px;
+}
+.custom .back{
+    float: left;
+    width: 32px;
+}
+.custom .start{
+    float: right;
+    width: 32px;
+    background-position: 32px 0;
+}*/
+/* This is to size and position the containing div for the 
+share and home buttons. */
 .custom .arrows{
     position: absolute;
     width: 205px;
