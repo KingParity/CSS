@@ -166,10 +166,10 @@ start and select buttons. *//*
 share and home buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
+    width: 120px;
     height: 19px;
-    top: 91px;
-    left: 197px;
+    top: 88px;
+    left: 196px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
