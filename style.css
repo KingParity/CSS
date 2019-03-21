@@ -48,7 +48,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width: 498px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(ProControllerTest.png);
+    background: url(ProControllerDisconnected.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
@@ -135,7 +135,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
     background-position: 0 -70px;
 }
 /* This is to size and position the containing div for the 
-start and select buttons. *//*
+start and select buttons. */
 .custom .arrows{
     position: absolute;
     width: 205px;
@@ -143,25 +143,25 @@ start and select buttons. *//*
     top: 250px;
     left: 291px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons *//*
+/* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(ShareMenu.png);
-    width: 33px;
-    height: 32px;
+    background: url(MinusPlus.png);
+    width: 40px;
+    height: 40px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -32px;
+    background-position-y: -40px;
     margin-top: 0px;
 }
 .custom .back{
     float: left;
-    width: 32px;
+    width: 40px;
 }
 .custom .start{
     float: right;
-    width: 32px;
-    background-position: 32px 0;
-}*/
+    width: 40px;
+    background-position: 40px 0;
+}
 /* This is to size and position the containing div for the 
 share and home buttons. */
 .custom .arrows{
@@ -172,20 +172,20 @@ share and home buttons. */
     left: 196px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
+.custom .share, .custom .home{
     background: url(ShareMenu.png);
     width: 33px;
     height: 32px;
 }
-.custom .back.pressed, .custom .start.pressed{
+.custom .share.pressed, .custom .home.pressed{
     background-position-y: -32px;
     margin-top: 0px;
 }
-.custom .back{
+.custom .share{
     float: left;
     width: 32px;
 }
-.custom .start{
+.custom .home{
     float: right;
     width: 32px;
     background-position: 33px 0;
