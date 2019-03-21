@@ -136,7 +136,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 }
 /* This is to size and position the containing div for the 
 start and select buttons. */
-.custom .minusplus{
+.custom .arrows{
     position: absolute;
     width: 163px;
     height: 40px;
