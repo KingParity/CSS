@@ -159,7 +159,7 @@ start and select buttons. */
 }
 .custom .start{
     float: right;
-    width: 12px;
+    width: 40px;
     background-position: 33px 0;
 }
 /* Positioning and size of the container for the face buttons */
