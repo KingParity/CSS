@@ -147,7 +147,7 @@ start and select buttons. */
 .custom .back, .custom .start{
     background: url(CaptureButton.png);
     width: 21px;
-    height: 21px;
+    height: 41px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
@@ -155,11 +155,11 @@ start and select buttons. */
 }
 .custom .back{
     float: left;
-    width: 38px;
+    width: 21px;
 }
 .custom .start{
     float: right;
-    width: 36px;
+    width: 21px;
     background-position: 37px 0;
 }
 /* Positioning and size of the container for the face buttons */
