@@ -162,34 +162,6 @@ start and select buttons. */
     width: 40px;
     background-position: 40px 0;
 }
-/* This is to size and position the containing div for the 
-share and home buttons. *//*
-.custom .sharemenu{
-    position: absolute;
-    width: 104px;
-    height: 19px;
-    top: 88px;
-    left: 196px;
-}
-/* Setting the size and CSS sprite for the start adn select buttons *//*
-.custom .share, .custom .home{
-    background: url(ShareMenu.png);
-    width: 33px;
-    height: 32px;
-}
-.custom .share.pressed, .custom .home.pressed{
-    background-position-y: -32px;
-    margin-top: 0px;
-}
-.custom .share{
-    float: left;
-    width: 32px;
-}
-.custom .home{
-    float: right;
-    width: 32px;
-    background-position: 33px 0;
-}*/
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
