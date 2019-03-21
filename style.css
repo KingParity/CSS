@@ -168,8 +168,8 @@ share and home buttons. */
     position: absolute;
     width: 205px;
     height: 19px;
-    top: 250px;
-    left: 291px;
+    top: 91px;
+    left: 197px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
