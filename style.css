@@ -138,10 +138,10 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .minusplus{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
+    width: 163px;
+    height: 40px;
+    top: 46px;
+    left: 167px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
@@ -163,7 +163,7 @@ start and select buttons. */
     background-position: 40px 0;
 }
 /* This is to size and position the containing div for the 
-share and home buttons. */
+share and home buttons. *//*
 .custom .sharemenu{
     position: absolute;
     width: 104px;
@@ -171,7 +171,7 @@ share and home buttons. */
     top: 88px;
     left: 196px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
+/* Setting the size and CSS sprite for the start adn select buttons *//*
 .custom .share, .custom .home{
     background: url(ShareMenu.png);
     width: 33px;
@@ -189,7 +189,7 @@ share and home buttons. */
     float: right;
     width: 32px;
     background-position: 33px 0;
-}
+}*/
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
