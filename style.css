@@ -150,8 +150,8 @@ start and select buttons. */
     height: 32px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
+    background-position-y: -32px;
+    margin-top: 0px;
 }
 .custom .back{
     float: left;
