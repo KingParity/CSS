@@ -159,8 +159,8 @@ start and select buttons. */
 }
 .custom .start{
     float: right;
-    width: 40px;
-    background-position: 33px 0;
+    width: 32px;
+    background-position: 40px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
