@@ -160,7 +160,7 @@ start and select buttons. */
 .custom .start{
     float: right;
     width: 21px;
-    background-position: 15px 0;
+    background-position: 500px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
