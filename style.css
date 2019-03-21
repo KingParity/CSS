@@ -145,9 +145,9 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(CaptureButton.png);
-    width: 21px;
-    height: 41px;
+    background: url(ShareMenu.png);
+    width: 55px;
+    height: 54px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
@@ -160,7 +160,7 @@ start and select buttons. */
 .custom .start{
     float: right;
     width: 21px;
-    background-position: 37px 0;
+    background-position: 15px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
