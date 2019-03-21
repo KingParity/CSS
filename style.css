@@ -136,7 +136,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 }
 /* This is to size and position the containing div for the 
 start and select buttons. */
-.custom .arrows{
+.custom .minusplus{
     position: absolute;
     width: 205px;
     height: 19px;
@@ -164,7 +164,7 @@ start and select buttons. */
 }
 /* This is to size and position the containing div for the 
 share and home buttons. */
-.custom .arrows{
+.custom .sharemenu{
     position: absolute;
     width: 104px;
     height: 19px;
