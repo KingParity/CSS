@@ -55,7 +55,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 498px;
+    width: 405px;
     height: 70px;
     position: absolute;
     left: 54px;
