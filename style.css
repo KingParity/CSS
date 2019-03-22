@@ -210,7 +210,7 @@ the CSS inline. */
 
 .custom .stick {
     position: absolute;
-    background: url(gamepadviewer.com/xbox-assets/stick.svgz);
+    background: url(https://gamepadviewer.com/xbox-assets/stick.svgz);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
