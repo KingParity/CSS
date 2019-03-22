@@ -242,31 +242,30 @@ the CSS inline. */
 }
 .custom .face.up, .custom .face.down{
     width: 30px;
-    height: 25px;
+    height: 30px;
 }
 .custom .face.left, .custom .face.right{
-    width: 25px;
+    width: 30px;
     height: 30px;
 }
 .custom .face.up{
-    left: 25px;
+    left: 0px;
     top: 0;
     background-position: 0px 0px;
 }
 .custom .face.down{
-    left: 25px;
-    top: 55px;
-    background-position: 0px 0px;
-	transform: rotateY(180deg);
+    left: 0px;
+    top: 30px;
+    background-position: 0px 30px;
 }
 .custom .face.left{
-    top: 25px;
-    left: 0;
-    background-position: 0px 0px;
+    top: 30px;
+    left: 30px;
+    background-position: 30px 30px;
 	transform: rotateY(270deg);
 }
 .custom .face.right{
-    top: 25px;
+    top: 0px;
     right: 0px;
     background-position: 0px 0px;
 	transform: rotateY(90deg);
