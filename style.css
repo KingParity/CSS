@@ -200,40 +200,50 @@ start and select buttons. */
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
 the CSS inline. */
-.custom .sticks{
+.custom .sticks {
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 371px;
+    height: 196px;
+    top: 239px;
+    left: 144px;
 }
-.custom .stick{
+
+.custom .stick {
     position: absolute;
-    background: url(https://i.imgur.com/MPoGFjb.png);
-    height:105px;
-    width: 105px;
+    background: url(gamepadviewer.com/xbox-assets/stick.svgz);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
 }
-.custom .stick.pressed.left{
-    background-position-x: -106px;
+
+.custom .stick.pressed {
+    background-position: 0 0;
 }
-.custom .stick.pressed.right{
-    background-position-x: -211px;
-}
-.custom .stick.left{
+
+.custom .stick.left {
     top: 0;
     left: 0;
 }
-.custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+
+.custom .stick.right {
+    top: 113px;
+    left: 288px;
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
     width: 80px;
     height: 80px;
-    top: 172px;
-    left: 133px;
+    top: 173px;
+    left: 132px;
 }
 .custom .face{
     background: url(DPad.png);
