@@ -55,15 +55,15 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 586px;
-    height: 65px;
+    width: 498px;
+    height: 70px;
     position: absolute;
-    left: 99px;
+    left: 54px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    width:86px;
-    height:65px;
-    background: url(https://i.imgur.com/ncYGIYp.png);
+    width:93px;
+    height:70px;
+    background: url(Triggers.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -72,9 +72,11 @@ to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{ 
     float: left;
+	background-position: 0 0;
 }
 .custom .trigger.right{
     float: right;
+	transform: rotateY(180deg);
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
@@ -181,21 +183,21 @@ start and select buttons. */
     background-position-y: -40px;
     margin-top: 0px;
 }
-.custom .b{
+.custom .a{
     background-position: 40px 0;
     top: 67px;
     left: 39px;
 }
-.custom .a{
+.custom .b{
     background-position: 80px 0;
     top: 33px;
     right: 0px;
 }
-.custom .y{
+.custom .x{
     background-position: 0 0;
     top: 33px;
 }
-.custom .x{
+.custom .y{
     background-position: 120px 0;
     left: 39px;
 }
