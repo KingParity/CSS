@@ -83,10 +83,10 @@ above to achieve the desired position. */
 placement */
 .custom .bumpers{
     position: absolute;
-    width: 382px;
+    width: 392px;
     height: 42px;
     left: 54px;
-	top: 40px;
+	top: 39px;
 }
 .custom .bumper{
     width: 119px;
